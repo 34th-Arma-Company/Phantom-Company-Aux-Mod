@@ -1,6 +1,6 @@
-name = "34th PRC Aux Mod"
-author = "34th PRC Aux Mod Team"
-prefix = "34thprc"
+name = "34th Phantom Company"
+author = "34th Arma Company Mod Team"
+prefix = "34pc"
 mainprefix = "z"
 
 [version]
@@ -14,7 +14,7 @@ include = [
 ]
 
 [hemtt.release]
-folder = "34th PRC Aux Mod"
+folder = "34th Phantom Company Aux Mod"
 
 [hemtt.launch.default]
 presets = [
