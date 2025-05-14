@@ -1,6 +1,6 @@
-name = "34th PRC Aux Mod"
-author = "34th PRC Aux Mod Team"
-prefix = "34thprc"
+name = "34th SOD Aux Mod"
+author = "34th SOD Aux Mod Team"
+prefix = "34thSOD"
 mainprefix = "z"
 
 [version]
@@ -8,13 +8,13 @@ path = "addons/main/script_version.hpp"
 
 [files]
 include = [
-	"34thPRC_logo.paa",
+	"34thSOD_logo.paa",
 	"changelog.md",
 	"mod.cpp",
 ]
 
 [hemtt.release]
-folder = "34th PRC Aux Mod"
+folder = "34th SOD Aux Mod"
 
 [hemtt.launch.default]
 presets = [

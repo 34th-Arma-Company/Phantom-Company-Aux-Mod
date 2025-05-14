@@ -47,6 +47,6 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: 'release-build'
-        path: 'releases/34thprc-latest.zip'
+        path: 'releases/34thSOD-latest.zip'
         if-no-files-found: 'warn' # Optional
         retention-days: 1 # Optional
