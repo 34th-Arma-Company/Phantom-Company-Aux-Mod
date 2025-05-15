@@ -2653,6 +2653,14 @@ class 34thPC_TieLN_2 : WM_Tiefighter
 		};
 };
 class 34thPC_TieLN_3 : WM_Tiefighter
+{
+	simulation = "airplaneX";
+	displayName = "[34th PC] TIE-LN_3";
+	faction="34thPC_FactionPhantom_Faction";
+	editorCategory="34thPC_FactionPhantom_EditorCategory";
+	editorSubcategory="34thPC_FactionPhantom_EditorSubCategory_Aircraft";
+	scope = 2;
+	scopecurator = 2;
 	side = 1;
 	crew = "WM_TiePilot";
 	cargoCanEject = 1;
