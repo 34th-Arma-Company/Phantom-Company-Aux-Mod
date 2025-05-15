@@ -9,4 +9,9 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4 # Uploads repository content to the runner
+      with:
+        repository: "34th-Arma-Company/Phantom-Company-Aux-Mod" # The one of the available inputs, visit https://github.com/actions/checkout#readme to find more
     - uses: actions/labeler@v5
+      with:
+        configuration-path: '../labeler.yml'
