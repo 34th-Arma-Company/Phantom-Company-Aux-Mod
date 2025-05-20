@@ -41,7 +41,7 @@ class ace_medical_treatment
 				effectiveness=5;
 				reopeningChance=0;
 			};
-			 class Avulsions: Abrasion {
+				class Avulsions: Abrasion {
 				effectiveness = 5;
 				reopeningChance = 0;
 				reopeningMinDelay = 900;
