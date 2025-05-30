@@ -9,7 +9,8 @@ class CfgPatches
 		weapons[] = {};
 		requiredAddons[] =
 		{
-
+			"34thPC_Overrides",
+			"34thPC_FactionPhantom"
 		};
 		VERSION_CONFIG;
 	};

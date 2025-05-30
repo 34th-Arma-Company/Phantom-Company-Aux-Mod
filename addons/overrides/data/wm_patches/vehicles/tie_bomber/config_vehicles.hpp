@@ -1,21 +1,8 @@
 class WM_TieBomber;
-class 34thPC_TieBomber_1 : WM_TieBomber
-{
-	displayName = "[34th PC] TIE-B_1";
-	faction="34thPC_FactionPhantom_Faction";
-	editorCategory="34thPC_FactionPhantom_EditorCategory";
-	editorSubcategory="34thPC_FactionPhantom_EditorSubCategory_Aircraft";
-	scope = 2;
-	scopecurator = 2;
-	side = 1;
-	crew = "WM_TiePilot";
-	cargoCanEject = 1;
-	ejectSpeed[] = { 0, 60, 0 };	// A-164 Wipeout, pilot is ejected upwards
-};
-class 34thPC_TieBomber_2 : WM_TieBomber
+class 34thPC_TieBomber : WM_TieBomber
 {
 
-	displayName = "[34th PC] TIE-B_2";
+	displayName = "[34th PC] TIE-Bomber";
 	faction="34thPC_FactionPhantom_Faction";
 	editorCategory="34thPC_FactionPhantom_EditorCategory";
 	editorSubcategory="34thPC_FactionPhantom_EditorSubCategory_Aircraft";

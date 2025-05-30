@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - main pbo
 - overrides pbo
 - Galactic Warfare patches: created an all in bacta patch
-- Warmantel Patches: created test Ties
+- Warmantel Patches: tie fighter and bomber changed
 ### Updated
 - project.toml
 - mod list
