@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class 34thPC_Overrides
+	class 34thPC_WarMantelPatches
 	{
 		author="Phantom Company Modding Team, Disqordant";
 		addonRootClass="34thPC_Overrides";
@@ -17,4 +17,9 @@ class CfgPatches
 			"34thPC_TieBomber"
 		};
 	};
+};
+
+class CfgVehicles
+{
+	#include "config_vehicles.hpp"
 };

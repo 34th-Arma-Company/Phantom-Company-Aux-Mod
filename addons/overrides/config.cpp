@@ -12,8 +12,3 @@ class CfgPatches
 		};
 	};
 };
-class CfgVehicles
-{
-	#include "data\config_vehicles.hpp"
-};
-
