@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class 34thPC_WarMantelPatches
+	class 34thPC_WarMantlePatches
 	{
 		author="Phantom Company Modding Team, Disqordant";
 		addonRootClass="34thPC_Overrides";
