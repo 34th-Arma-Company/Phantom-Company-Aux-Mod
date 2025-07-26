@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+### Fix
+- 3AS Fortify Mode of the Fusion Cutter, provides temporary fix to make the fortify mode function.
 
 ## 0.0.1
 ### Added
