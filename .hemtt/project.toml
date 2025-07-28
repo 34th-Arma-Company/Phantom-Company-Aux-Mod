@@ -8,7 +8,7 @@ path = "addons/main/script_version.hpp"
 
 [files]
 include = [
-	"34thPRC_logo.paa",
+	"34th_Legion_-_Phantom_Company.paa",
 	"changelog.md",
 	"mod.cpp",
 ]
