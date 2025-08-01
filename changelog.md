@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.3
+### Fixed
+- Mod data has been updated with proper logo and other verbiage
+
 ## 0.0.2
 ### Fix
 - 3AS Fortify Mode of the Fusion Cutter, provides temporary fix to make the fortify mode function via override.
