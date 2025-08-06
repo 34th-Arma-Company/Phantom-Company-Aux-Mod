@@ -83,14 +83,14 @@ class ace_Medical_Treatment
 		class Adenosine
 		{
 			painReduce = 0;
-            hrIncreaseLow[] = {-7, -10};
-            hrIncreaseNormal[] = {-15, -30};
-            hrIncreaseHigh[] = {-15, -35};
-            timeInSystem = 120;
-            timeTillMaxEffect = 15;
-            maxDose = 5;
-            dose = 1;
-            incompatibleMedication[] = {};
+			hrIncreaseLow[] = {-7, -10};
+			hrIncreaseNormal[] = {-15, -30};
+			hrIncreaseHigh[] = {-15, -35};
+			timeInSystem = 120;
+			timeTillMaxEffect = 15;
+			maxDose = 5;
+			dose = 1;
+			incompatibleMedication[] = {};
 		};
 		class TXA
 		{

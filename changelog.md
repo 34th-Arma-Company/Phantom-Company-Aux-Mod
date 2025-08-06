@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Updated
-- EACA and TXA reskinned
+- Many drugs, and splints reskinned
 
 ## 0.0.3
 ### Fixed
