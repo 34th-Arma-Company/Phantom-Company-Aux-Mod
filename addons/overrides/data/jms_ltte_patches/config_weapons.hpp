@@ -1,0 +1,5 @@
+#include "weapons\ammo\config_weapons.hpp"
+#include "weapons\dlt19d\config_weapons.hpp"
+#include "weapons\e11d\config_weapons.hpp"
+#include "weapons\t21b\config_weapons.hpp"
+#include "weapons\tl50\config_weapons.hpp"
