@@ -15,5 +15,5 @@ class CfgPatches
 
 class CfgWeapons
 {
-	#include "config_weapons.hpp"
+	#include "config_weapons.cpp"
 };
