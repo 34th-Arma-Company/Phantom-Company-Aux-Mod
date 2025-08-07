@@ -177,6 +177,20 @@ class ace_Medical_Treatment
 			viscosityChange=0;
 			onOverDose="";
 		};
+		class Penthrox
+		{
+			painReduce=0.60000002;
+			hrIncreaseLow[]={0,-5};
+			hrIncreaseNormal[]={-5,-10};
+			hrIncreaseHigh[]={-5,-15};
+			timeInSystem=300;
+			timeTillMaxEffect=20;
+			maxDose=4;
+			incompatibleMedication[]={};
+			viscosityChange=5;
+			onOverDose="";
+			maxRelief=0.60000002;
+		};
 	};
 };
 
@@ -297,6 +311,16 @@ class ACE_Medical_Treatment_Actions
 		};
 		callbackSuccess="kat_pharma_fnc_medication";
 	};
+
+	class Penthrox: Morphine
+	{
+		displayName = "Inhaler (Nyex)";
+		displayNameProgress = "Using Nyex Inhaler";
+		items[]=
+		{
+			"PC_Inhaler_Nyex"
+		};
+	};
 };
 
 class CfgVehicles
@@ -412,7 +436,7 @@ class CfgVehicles
 		};
 	};
 
-	class PC_Injector_Plethyl_Nitrate : Item_Base_F
+	class PC_Injector_Plethyl_Nitrate_Item : Item_Base_F
 	{
 		displayName="Injector (Plethyl Nitrate)";
 		author="Over Yandere";
@@ -427,7 +451,7 @@ class CfgVehicles
 		};
 	};
 
-	class PC_Sansanna_Spice : Item_Base_F
+	class PC_Sansanna_Spice_Item : Item_Base_F
 	{
 		displayName="Sansanna Spice";
 		author="Over Yandere";
@@ -442,7 +466,7 @@ class CfgVehicles
 		};
 	};
 
-	class PC_Felucian_Spice : Item_Base_F
+	class PC_Felucian_Spice_Item : Item_Base_F
 	{
 		displayName="Felucian Spice";
 		author="Over Yandere";
@@ -454,6 +478,21 @@ class CfgVehicles
 		{
 			name="PC_Felucian_Spice";
 			count=1;
+		};
+	};
+
+	class PC_Inhaler_Nyex_Item : Item_Base_F
+	{
+		displayName="Inahler (Nyex)";
+		author="Over Yandere";
+		editorcategory="EdCat_Supplies";
+		editorsubcategory = "EdSubcat_Medicine";
+		model="\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		vehicle="Items";
+		class _xx_PC_Inhaler_Nyex
+		{
+			name="PC_Inhaler_Nyex";
+			count=15;
 		};
 	};
 };
@@ -605,6 +644,20 @@ class CfgWeapons
 		picture="\z\34thpc\addons\phantom_medical\data\FelucianSpice.paa";
 		model="\TK\GW\GW_Medical_Assets\InjectorBlue.p3d";
 		descriptionShort="Provides pain relief, at a cost";
+		class ItemInfo : CBA_MiscItem_ItemInfo
+		{
+			mass=0.5;
+		};
+	};
+
+	//Penthrox Reskin
+	class PC_Inahler_Nyex : ACE_ItemCore
+	{
+		scope=2;
+		displayName="Inahler (Nyex)";
+		descriptionShort="Temporarily relieves pain.";
+		model="\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		picture="\z\34thpc\addons\phantom_medical\data\Nyex.paa";
 		class ItemInfo : CBA_MiscItem_ItemInfo
 		{
 			mass=0.5;
