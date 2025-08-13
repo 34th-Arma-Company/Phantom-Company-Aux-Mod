@@ -8,12 +8,8 @@ class CfgPatches
 		{
 			"34thPC_Overrides",
 			"JMSLLTE_weapons",
+			"JMSLLTE_wep_mags",
 			"3AS_Weapons",
 		};
 	};
-};
-
-class CfgWeapons
-{
-	#include "config_weapons.hpp"
 };
