@@ -17,10 +17,10 @@ class CfgAmmo
 
 	class 34thPC_tl50_ammo : JMSLLTE_tl50_Ammo
 	{
-		hit=12; //redefine hit value
-		indirectHit=0; //Changed to 0 from 0.1
+		hit=12; //hit value increased by 1
+		indirectHit=0; //Changed to 0 from 0.1, could turn this back on
 		indirectHitRange=0; //Also reduced to 0
-		caliber=2.2;
+		caliber=2.2; //1.2 is 9mm, original was 1.1
 	};
 };
 
