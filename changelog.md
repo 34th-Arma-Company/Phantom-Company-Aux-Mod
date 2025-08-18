@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 3AS Imperial Scout Drone now dissasembles into the new backpack
 ### Updated
 - Many drugs, and splints reskinned
+- TL50 ammo adjusted to provide better results
 
 ## 0.0.3
 ### Fixed
