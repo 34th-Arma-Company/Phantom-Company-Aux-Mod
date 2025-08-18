@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.4
+### New
+- Created a new backpack off of the 3AS drone bag, it was model swapped with an IDA imperial backpack.
+- 3AS Imperial Scout Drone now dissasembles into the new backpack
+- Nyex Inhaler and Millafline Injector now exist.
+### Updated
+- Many drugs, and splints reskinned
+- TL50 ammo adjusted to provide better results
+
 ## 0.0.3
 ### Fixed
 - Mod data has been updated with proper logo and other verbiage
