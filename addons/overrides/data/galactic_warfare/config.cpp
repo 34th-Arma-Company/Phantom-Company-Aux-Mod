@@ -217,8 +217,6 @@ class CfgVehicles
 
 class CfgWeapons
 {
-	class ItemCore;
-	class ACE_ItemCore;
 	class CBA_MiscItem_ItemInfo;
 	class GW_BactaPatch;
 	class PC_ExperimentalBactaPatch: GW_BactaPatch

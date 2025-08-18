@@ -6,8 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
-### Added
-- Balanced ammunition options for the JMS DLT-19D, E-11D, T-21B, & TL-50
+### New
+- Created a new backpack off of the 3AS drone bag, it was model swapped with an IDA imperial backpack.
+- 3AS Imperial Scout Drone now dissasembles into the new backpack
+### Updated
+- Many drugs, and splints reskinned
+- TL50 ammo adjusted to provide better results
 
 ## 0.0.3
 ### Fixed
