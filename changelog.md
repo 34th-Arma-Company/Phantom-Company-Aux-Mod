@@ -12,7 +12,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 - Many drugs, and splints reskinned
 
-
 ## 0.0.3
 ### Fixed
 - Mod data has been updated with proper logo and other verbiage
