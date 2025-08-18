@@ -312,7 +312,7 @@ class ACE_Medical_Treatment_Actions
 		callbackSuccess="kat_pharma_fnc_medication";
 	};
 
-	class Penthrox: Morphine
+	class Penthrox : Morphine
 	{
 		displayName = "Inhaler (Nyex)";
 		displayNameProgress = "Using Nyex Inhaler";
@@ -483,7 +483,7 @@ class CfgVehicles
 
 	class PC_Inhaler_Nyex_Item : Item_Base_F
 	{
-		displayName="Inahler (Nyex)";
+		displayName="Inhaler (Nyex)";
 		author="Over Yandere";
 		editorcategory="EdCat_Supplies";
 		editorsubcategory = "EdSubcat_Medicine";
@@ -651,10 +651,10 @@ class CfgWeapons
 	};
 
 	//Penthrox Reskin
-	class PC_Inahler_Nyex : ACE_ItemCore
+	class PC_Inhaler_Nyex : ACE_ItemCore
 	{
 		scope=2;
-		displayName="Inahler (Nyex)";
+		displayName="Inhaler (Nyex)";
 		descriptionShort="Temporarily relieves pain.";
 		model="\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		picture="\z\34thpc\addons\phantom_medical\data\Nyex.paa";
