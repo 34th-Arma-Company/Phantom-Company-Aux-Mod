@@ -1,4 +1,4 @@
-class CfgPatches
+/*class CfgPatches
 {
 	class 34thPC_jms_e11d //Edit if name wrong and remove comment when done
 	{
@@ -9,4 +9,4 @@ class CfgPatches
 			"JMSLLTE_weapons",
 		};
 	};
-};
+};*/
