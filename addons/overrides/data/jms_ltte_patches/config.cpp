@@ -11,5 +11,6 @@ class CfgPatches
 			"JMSLLTE_wep_mags",
 			"3AS_Weapons",
 		};
+		units[]={};
 	};
 };

@@ -8,6 +8,10 @@ class CfgPatches
 		{
 			"JMSLLTE_weapons",
 		};
+		units[] =
+		{
+			"JMSLLTE_tl50",
+		};
 	};
 };
 
@@ -39,9 +43,8 @@ class CfgWeapons
 	class JMSLLTE_BlasterRifle_Base;
 	class JMSLLTE_tl50: JMSLLTE_BlasterRifle_Base
 	{
-		magazines[]=
+		magazines[]+=
 		{
-			"JMSLLTE_Tl50_40rnd_Mag",
 			"34thPC_TL50_40rnd_Mag"
 		};
 	};

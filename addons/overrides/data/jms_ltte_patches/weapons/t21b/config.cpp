@@ -1,4 +1,4 @@
-class CfgPatches
+/*class CfgPatches
 {
 	class 34thPC_jms_t21b
 	{
@@ -9,4 +9,4 @@ class CfgPatches
 			"JMSLLTE_weapons",
 		};
 	};
-};
+};*/
