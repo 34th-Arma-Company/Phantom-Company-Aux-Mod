@@ -34,10 +34,10 @@ class CfgVehicles
 		displayName="[34th] Imperial-class AG-22 Star Wing";
 		textures[] =
 		{
-			"overrides\data\optre\sparrowhawk\textures\Body_01_co.png",
-			"overrides\data\optre\sparrowhawk\textures\Body_02_co.png",
-			"overrides\data\optre\sparrowhawk\textures\Body_03_co.png",
-			"overrides\data\optre\sparrowhawk\textures\Body_04_co.png",
+			"overrides\data\optre\sparrowhawk\textures\Body_01_co.paa",
+			"overrides\data\optre\sparrowhawk\textures\Body_02_co.paa",
+			"overrides\data\optre\sparrowhawk\textures\Body_03_co.paa",
+			"overrides\data\optre\sparrowhawk\textures\Body_04_co.paa",
 		};
 	};
 };
