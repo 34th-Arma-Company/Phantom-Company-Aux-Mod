@@ -42,6 +42,21 @@ class CfgVehicles
 				};
 			};
 		};
+		textureList[]=
+		{
+			"Republic",
+			1,
+			"Blue",
+			0,
+			"Green",
+			0,
+			"Orange",
+			0,
+			"Yellow",
+			0,
+			"Imperial",
+			0,
+		};
 	};
 	class 34thPC_ARC_170_Imperial : 34thPC_ARC_170_Base
 	{
