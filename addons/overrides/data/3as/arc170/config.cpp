@@ -25,13 +25,14 @@ class CfgVehicles
 		editorPreview="";
 		scope=2;
 		scopeCurator=2;
-		crew="3AS_Clone_P2_Pilot"; //Bonus, swap to imperial
+		crew="3AS_Imperial_TIE_Pilot_F";
 		side=1;
-		hiddenselections[]=
+		faction="34thPC_FactionPhantom_Faction";
+		textures[]=
 		{
-			"3as\3AS_ARC170\Data\Main_Frame_CO.paa",
-			"3as\3AS_ARC170\Data\Wings_Engines_CO.paa",
-			"3as\3AS_ARC170\Data\Guns_CO.paa"
+			"overrides\data\3as\arc170\textures\Main_Frame_CO.paa",
+			"overrides\data\3as\arc170\textures\Wings_Engines_CO.paa",
+			"overrides\data\3as\arc170\textures\Guns_CO.paa"
 		};
 	};
 };
