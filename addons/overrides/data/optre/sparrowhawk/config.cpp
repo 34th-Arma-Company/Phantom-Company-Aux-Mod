@@ -28,10 +28,14 @@ class CfgVehicles
 
 	class 34thPC_Imperial_StarWing : 34thPC_Sparrowhawk_Base
 	{
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
+		author="34thPC Mod Dev Team";
 		displayName="[34th] Imperial-class AG-22 Star Wing";
+		editorPreview="";
+		scope=2;
+		scopeCurator=2;
+		crew="3AS_Imperial_TIE_Pilot_F";
+		side=1;
+		faction="34thPC_FactionPhantom_Faction";
 		textures[] =
 		{
 			"overrides\data\optre\sparrowhawk\textures\Body_01_co.paa",
