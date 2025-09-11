@@ -4,8 +4,6 @@ class 34thPC_TieBomber : WM_TieBomber
 
 	displayName = "[34th PC] TIE-Bomber";
 	faction="34thPC_FactionPhantom_Faction";
-	editorCategory="34thPC_FactionPhantom_EditorCategory";
-	editorSubcategory="34thPC_FactionPhantom_EditorSubCategory_Aircraft";
 	scope = 2;
 	scopecurator = 2;
 	side = 1;

@@ -70,9 +70,10 @@ class CfgVehicles
 		faction="34thPC_FactionPhantom_Faction";
 		hiddenselectionstextures[]=
 		{
-			"overrides\data\3as\arc170\textures\Main_Frame_CO.paa",
-			"overrides\data\3as\arc170\textures\Wings_Engines_CO.paa",
-			"overrides\data\3as\arc170\textures\Guns_CO.paa"
+			"\z\34thpc\addons\overrides\data\3as\arc170\textures\Imperial_Main_Frame_CO.paa",
+			"\z\34thpc\addons\overrides\data\3as\arc170\textures\Imperial_Wings_Engines_CO.paa",
+			"\z\34thpc\addons\overrides\data\3as\arc170\textures\Imperial_Glass_CO.paa",
+			"\z\34thpc\addons\overrides\data\3as\arc170\textures\Imperial_Guns_CO.paa"
 		};
 		textureList[]=
 		{
