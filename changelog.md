@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### New
 - Imperial textures for the ARC-170 Heavy Fighter.
-- Basic version of the Imperial-class AG-22 Star Wing. (Star Wars retrofit for OPTRE's AV-22 Sparrowhawk.)
+- Added a basic version of the Imperial-class AG-22 Star Wing. (Star Wars retrofit for OPTRE's AV-22 Sparrowhawk.)
 ### Fixed
 - Spawn UI for the 34th Phantom Company faction now displays categories correctly
 
