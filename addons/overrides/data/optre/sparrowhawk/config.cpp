@@ -42,6 +42,7 @@ class CfgVehicles
 			"\z\34thpc\addons\overrides\data\optre\sparrowhawk\textures\Body_02_co.paa",
 			"\z\34thpc\addons\overrides\data\optre\sparrowhawk\textures\Body_03_co.paa",
 			"\z\34thpc\addons\overrides\data\optre\sparrowhawk\textures\Body_04_co.paa",
+			"\z\34thpc\addons\overrides\data\optre\sparrowhawk\textures\Body_05_co.paa",
 		};
 	};
 };
