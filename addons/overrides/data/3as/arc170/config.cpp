@@ -10,7 +10,7 @@ class CfgPatches
 			"3AS_ARC_170",
 		};
 		units[]={
-			"3AS_ARC_170_Base",
+			"34thPC_ARC_170_Imperial",
 		};
 	};
 };
@@ -62,8 +62,8 @@ class CfgVehicles
 	{
 		author="34thPC Mod Dev Team";
 		displayName="[34th] ARC-170 (Imperial)";
-		editorPreview="";
 		scope=2;
+		scopeArsenal=2;
 		scopeCurator=2;
 		crew="3AS_Imperial_TIE_Pilot_F";
 		side=1;
