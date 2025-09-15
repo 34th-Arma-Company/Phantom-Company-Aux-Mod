@@ -30,7 +30,7 @@ class CfgVehicles
 	class 34thPC_Imperial_StarWing : 34thPC_Sparrowhawk_Base
 	{
 		author="34thPC Mod Dev Team";
-		displayName="[34th] Imperial-class AG-22 Star Wing";
+		displayName="[34th] Imperial-class AG-134 Star Sparrow";
 		editorPreview="";
 		scope=2;
 		scopeCurator=2;
