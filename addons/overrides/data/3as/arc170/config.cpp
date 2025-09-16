@@ -89,8 +89,8 @@ class CfgVehicles
 							objectDistanceLimitCoef=1;
 							viewDistanceLimitCoef=1;
 						};
-						angleRangeHorizontal=50;
-						angleRangeVertical=37;
+						angleRangeHorizontal=160;
+						angleRangeVertical=90;
 						maxTrackableSpeed=100;
 						componentType="IRSensorComponent";
 						typeRecognitionDistance=2000;
@@ -123,8 +123,8 @@ class CfgVehicles
 							objectDistanceLimitCoef=1;
 							viewDistanceLimitCoef=1;
 						};
-						angleRangeHorizontal=26;
-						angleRangeVertical=20;
+						angleRangeHorizontal=160;
+						angleRangeVertical=90;
 						maxTrackableSpeed=100;
 						aimDown=1;
 						animDirection="pilotCameraRotY";
@@ -147,7 +147,7 @@ class CfgVehicles
 							viewDistanceLimitCoef=-1;
 						};
 						typeRecognitionDistance=8000;
-						angleRangeHorizontal=150;
+						angleRangeHorizontal=160;
 						angleRangeVertical=90;
 						groundNoiseDistanceCoef=-1;
 						maxGroundNoiseDistance=-1;
@@ -179,8 +179,8 @@ class CfgVehicles
 							viewDistanceLimitCoef=-1;
 						};
 						typeRecognitionDistance=4000;
-						angleRangeHorizontal=45;
-						angleRangeVertical=45;
+						angleRangeHorizontal=160;
+						angleRangeVertical=90;
 						groundNoiseDistanceCoef=0.2;
 					};
 					class AntiRadiationSensorComponent: SensorTemplateAntiRadiation
@@ -201,8 +201,8 @@ class CfgVehicles
 						};
 						maxTrackableATL=100;
 						maxTrackableSpeed=60;
-						angleRangeHorizontal=70;
-						angleRangeVertical=60;
+						angleRangeHorizontal=160;
+						angleRangeVertical=90;
 					};
 					class LaserSensorComponent: SensorTemplateLaser
 					{
@@ -292,36 +292,25 @@ class CfgVehicles
 					{
 						hardpoints[]=
 						{
-							"ARC_EMP_RAIL",
 							"B_AGM65_DUAL",
-							"B_AGM65_DUAL_RAIL",
 							"B_AGM65_RAIL",
 							"B_AMRAAM_D_DUAL_RAIL",
-							"B_AMRAAM_D_INT",
 							"B_AMRAAM_D_RAIL",
 							"B_ASRAAM",
 							"B_BIM9X",
 							"B_BIM9X_DUAL_RAIL",
 							"B_BIM9X_RAIL",
 							"B_BOMB_PYLON",
-							"B_HARM_INT",
 							"B_HARM_RAIL",
-							"B_MISSILE_PYLON",
 							"B_SDB_QUAD_RAIL",
 							"B_SHIEKER",
 							"B_ZEPHYR",
-							"DAR",
 							"O_BOMB_PYLON",
 							"O_BOMB_PYLON_HELI",
 							"O_KAB250_BOMB",
-							"O_KH25",
-							"O_KH25_INT",
-							"O_KH58",
-							"O_KH58_INT",
 							"O_MISSILE_PYLON",
 							"O_R73",
 							"O_R77",
-							"O_R77_INT",
 							"O_SKYFIRE",
 							"SCALPEL_1RND",
 							"UNI_SCALPEL",
@@ -331,7 +320,7 @@ class CfgVehicles
 							"IMP_AAA_RAIL",
 							"REP_BOMB_RAIL",
 						};
-						attachment="PylonRack_Missile_BIM9X_x2";
+						attachment="PylonMissile_Bomb_KAB250_x1";
 						priority=10;
 						maxweight=300;
 						UIposition[]={0.5,0.25};
@@ -345,36 +334,25 @@ class CfgVehicles
 					{
 						hardpoints[]=
 						{
-							"ARC_EMP_RAIL",
 							"B_AGM65_DUAL",
-							"B_AGM65_DUAL_RAIL",
 							"B_AGM65_RAIL",
 							"B_AMRAAM_D_DUAL_RAIL",
-							"B_AMRAAM_D_INT",
 							"B_AMRAAM_D_RAIL",
 							"B_ASRAAM",
 							"B_BIM9X",
 							"B_BIM9X_DUAL_RAIL",
 							"B_BIM9X_RAIL",
-							"B_BOMB_PYLON",
-							"B_HARM_INT",
 							"B_HARM_RAIL",
 							"B_MISSILE_PYLON",
 							"B_SDB_QUAD_RAIL",
 							"B_SHIEKER",
 							"B_ZEPHYR",
-							"DAR",
-							"O_BOMB_PYLON",
-							"O_BOMB_PYLON_HELI",
 							"O_KAB250_BOMB",
 							"O_KH25",
-							"O_KH25_INT",
 							"O_KH58",
-							"O_KH58_INT",
 							"O_MISSILE_PYLON",
 							"O_R73",
 							"O_R77",
-							"O_R77_INT",
 							"O_SKYFIRE",
 							"SCALPEL_1RND",
 							"UNI_SCALPEL",
@@ -384,7 +362,7 @@ class CfgVehicles
 							"IMP_AAA_RAIL",
 							"REP_BOMB_RAIL",
 						};
-						attachment="PylonMissile_1Rnd_Bomb_04_F";
+						attachment="PylonRack_Missile_AMRAAM_D_x2";
 						priority=9;
 						maxweight=2500;
 						UIposition[]={0.55000001,0.34999999};
@@ -398,36 +376,24 @@ class CfgVehicles
 					{
 						hardpoints[]=
 						{
-							"ARC_EMP_RAIL",
 							"B_AGM65_DUAL",
-							"B_AGM65_DUAL_RAIL",
 							"B_AGM65_RAIL",
 							"B_AMRAAM_D_DUAL_RAIL",
-							"B_AMRAAM_D_INT",
 							"B_AMRAAM_D_RAIL",
 							"B_ASRAAM",
 							"B_BIM9X",
 							"B_BIM9X_DUAL_RAIL",
 							"B_BIM9X_RAIL",
-							"B_BOMB_PYLON",
-							"B_HARM_INT",
 							"B_HARM_RAIL",
 							"B_MISSILE_PYLON",
 							"B_SDB_QUAD_RAIL",
 							"B_SHIEKER",
 							"B_ZEPHYR",
-							"DAR",
-							"O_BOMB_PYLON",
-							"O_BOMB_PYLON_HELI",
-							"O_KAB250_BOMB",
 							"O_KH25",
-							"O_KH25_INT",
 							"O_KH58",
-							"O_KH58_INT",
 							"O_MISSILE_PYLON",
 							"O_R73",
 							"O_R77",
-							"O_R77_INT",
 							"O_SKYFIRE",
 							"SCALPEL_1RND",
 							"UNI_SCALPEL",
@@ -437,7 +403,7 @@ class CfgVehicles
 							"IMP_AAA_RAIL",
 							"REP_BOMB_RAIL",
 						};
-						attachment="PylonRack_Missile_AMRAAM_D_x1";
+						attachment="PylonRack_Missile_AMRAAM_D_x2";
 						priority=7;
 						maxweight=5000;
 						UIposition[]={0.60000002,0.44999999};
@@ -460,12 +426,12 @@ class CfgVehicles
 						displayName="$STR_A3_cfgmagazines_titan_aa_dns";
 						attachment[]=
 						{
-							"PylonRack_Missile_BIM9X_x1",
-							"PylonRack_Missile_BIM9X_x1",
-							"3AS_PylonRack_ARC_6Rnd_Missile_AGM",
-							"3AS_PylonRack_ARC_6Rnd_Missile_AGM",
-							"PylonRack_Missile_AMRAAM_D_x1",
-							"PylonRack_Missile_AMRAAM_D_x1"
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2"
 						};
 					};
 					class CAS
@@ -473,12 +439,12 @@ class CfgVehicles
 						displayName="$STR_A3_CAS_PRESET_DISPLAYNAME";
 						attachment[]=
 						{
-							"PylonRack_Missile_BIM9X_x1",
-							"PylonRack_Missile_BIM9X_x1",
-							"PylonMissile_1Rnd_Bomb_04_F",
-							"PylonMissile_1Rnd_Bomb_04_F",
-							"3AS_PylonRack_ARC_6Rnd_Missile_AGM",
-							"3AS_PylonRack_ARC_6Rnd_Missile_AGM"
+							"PylonMissile_Bomb_KAB250_x1",
+							"PylonMissile_Bomb_KAB250_x1",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2",
+							"PylonRack_Missile_AMRAAM_D_x2"
 						};
 					};
 				};
