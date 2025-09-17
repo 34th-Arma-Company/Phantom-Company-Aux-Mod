@@ -151,7 +151,7 @@ class CfgVehicles
                             //"REP_AGM_RAIL",
                             //"IMP_AGM_RAIL",
 						};
-						attachment="PylonRack_4Rnd_ACE_Hellfire_AGM114K";
+						attachment="";
 						bay=-1;
 						priority=3;
 						UIposition[]={0.34999999,0.1};
@@ -161,13 +161,13 @@ class CfgVehicles
 					{
 						priority=2;
 						UIposition[]={0.30000001,0.134};
-						attachment="PylonRack_4Rnd_ACE_Hellfire_AGM114K";
+						attachment="";
 					};
 					class WingPylonRight3: WingPylonRight1
 					{
 						priority=1;
 						UIposition[]={0.34999999,0.167};
-						attachment="PylonRack_4Rnd_ACE_Hellfire_AGM114K";
+						attachment="";
 					};
 					class WingPylonLeft3: WingPylonRight3
 					{
