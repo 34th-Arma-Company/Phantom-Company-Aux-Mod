@@ -324,36 +324,6 @@ class CfgVehicles
 				};
 			};
    		};
-		class Turrets: Turrets
-		{
-			class CopilotTurret: CopilotTurret
-			{
-				weapons[]=
-				{
-					"ISB_Exp_Laser",
-					"Laserdesignator_mounted"
-				};
-				magazines[]=
-				{
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"Laserbatteries"
-				};
-			};
-		};
 	};
 
 	class 34thPC_Imperial_StarWing : 34thPC_Imperial_StarWing_Base {
@@ -382,15 +352,7 @@ class CfgVehicles
 					"laserMag",
 					"laserMag",
 					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
+
 					"Laserbatteries"
 				};
 			};
