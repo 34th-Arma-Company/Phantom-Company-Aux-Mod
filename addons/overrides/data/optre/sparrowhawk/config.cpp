@@ -56,7 +56,6 @@ class CfgVehicles
 	class Turrets;
 	class CopilotTurret;
 	class OPTRE_AV22A_Sparrowhawk;
-	class 3AS_Patrol_LAAT_Base;
 
 	class 34thPC_Imperial_StarWing_Base : OPTRE_AV22A_Sparrowhawk
 	{
@@ -124,10 +123,6 @@ class CfgVehicles
 		class SensorTemplatePassiveRadar;
 		class SensorTemplateActiveRadar;
 		class SensorTemplateAntiRadiation;
-		class SensorTemplateLaser;
-		class SensorTemplateNV;
-		class DefaultVehicleSystemsDisplayManagerLeft;
-		class DefaultVehicleSystemsDisplayManagerRight;
 		class Components: Components
 		{
 			class TransportPylonsComponent
