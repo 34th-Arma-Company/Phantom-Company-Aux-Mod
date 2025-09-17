@@ -39,13 +39,13 @@ class CfgMagazines{
 
 class CfgAmmo {
 	class OPTRE_SpLaserAmmo;
-  class laserAmmo: OPTRE_SpLaserAmmo {
-    	hit = 500;
+	class laserAmmo: OPTRE_SpLaserAmmo {
+		hit = 500;
 		indirecthit = 50;
 		indirecthitrange = 3;
 		caliber = 15;
 		deflect = 0;
-  };
+	};
 };
 
 
@@ -136,15 +136,15 @@ class CfgVehicles
 						hardpoints[]=
 						{
 							//"B_AGM65_DUAL",
-                            "B_AGM65_RAIL",
-                            "B_HARM_RAIL",
-                            "B_SHIEKER",
-                            //"O_MISSILE_PYLON",
-                            //"O_SKYFIRE",
-                            //"SCALPEL_1RND",
-                            //"UNI_SCALPEL",
-                            //"REP_AGM_RAIL",
-                            //"IMP_AGM_RAIL",
+							"B_AGM65_RAIL",
+							"B_HARM_RAIL",
+							"B_SHIEKER",
+							//"O_MISSILE_PYLON",
+							//"O_SKYFIRE",
+							//"SCALPEL_1RND",
+							//"UNI_SCALPEL",
+							//"REP_AGM_RAIL",
+							//"IMP_AGM_RAIL",
 						};
 						attachment="";
 						bay=-1;
@@ -318,7 +318,7 @@ class CfgVehicles
 					};
 				};
 			};
-   		};
+		};
 	};
 
 	class 34thPC_Imperial_StarWing : 34thPC_Imperial_StarWing_Base {
@@ -347,7 +347,6 @@ class CfgVehicles
 					"laserMag",
 					"laserMag",
 					"laserMag",
-
 					"Laserbatteries"
 				};
 			};
