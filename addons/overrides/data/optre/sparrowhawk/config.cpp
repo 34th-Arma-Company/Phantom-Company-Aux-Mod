@@ -146,7 +146,7 @@ class CfgVehicles
                             //"REP_AGM_RAIL",
                             //"IMP_AGM_RAIL",
 						};
-						attachment="PylonRack_4Rnd_ACE_Hellfire_AGM114K";
+						attachment="";
 						bay=-1;
 						priority=3;
 						UIposition[]={0.34999999,0.1};
@@ -156,13 +156,13 @@ class CfgVehicles
 					{
 						priority=2;
 						UIposition[]={0.30000001,0.134};
-						attachment="PylonRack_4Rnd_ACE_Hellfire_AGM114K";
+						attachment="";
 					};
 					class WingPylonRight3: WingPylonRight1
 					{
 						priority=1;
 						UIposition[]={0.34999999,0.167};
-						attachment="PylonRack_4Rnd_ACE_Hellfire_AGM114K";
+						attachment="";
 					};
 					class WingPylonLeft3: WingPylonRight3
 					{
@@ -319,36 +319,6 @@ class CfgVehicles
 				};
 			};
    		};
-		class Turrets: Turrets
-		{
-			class CopilotTurret: CopilotTurret
-			{
-				weapons[]=
-				{
-					"ISB_Exp_Laser",
-					"Laserdesignator_mounted"
-				};
-				magazines[]=
-				{
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"OPTRE_SpLaser_Battery",
-					"Laserbatteries"
-				};
-			};
-		};
 	};
 
 	class 34thPC_Imperial_StarWing : 34thPC_Imperial_StarWing_Base {
@@ -377,15 +347,7 @@ class CfgVehicles
 					"laserMag",
 					"laserMag",
 					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
-					"laserMag",
+
 					"Laserbatteries"
 				};
 			};
